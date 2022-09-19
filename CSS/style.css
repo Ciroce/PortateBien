@@ -1,0 +1,32 @@
+body {
+    background-color: #692203;
+}
+
+.font {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.zoom {
+    height: 30px;
+    width: auto;
+    transition: transform .2s; 
+}
+ 
+.zoom:hover {
+    transform: scale(1.3); 
+}
+
+.zooma {
+    height: auto;
+    width: auto;
+    transition: transform .2s; 
+}
+.contenedor {    
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.flyers {
+    width: 40%;
+}
